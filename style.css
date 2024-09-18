@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:darkgray ;
+    color: black;
+    padding: 15px;
+}
+
+#titulo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.enlaces{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.contenido{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.jugadores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jugador{
+    width: 200px;
+    text-align: center;
+}
+
+.jugador img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.jugador p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
